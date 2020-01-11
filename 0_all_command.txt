@@ -1,0 +1,10 @@
+Commands for:
+    
+    For viewing the type running in the background
+        kubectl get all //for all
+        type = <pods / deployment / services / namespaces / replicationcontroller / replicaset>
+        kubectl get <type> //basic info for mentioned specific type
+        kubectl describe <type> //detailed info for mentioned specific type
+
+    For Creating a new type
+        kubectl create -f <file.yaml> //if using a declared file (such as deployment, service etc)
