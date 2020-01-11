@@ -8,3 +8,10 @@ Commands for:
 
     For Creating a new type
         kubectl create -f <file.yaml> //if using a declared file (such as deployment, service etc)
+
+Basic Structure of Yaml file
+
+    apiVersion:
+    kind:
+    metadata
+    spec:
